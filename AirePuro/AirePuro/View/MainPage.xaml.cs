@@ -18,7 +18,7 @@ namespace AirePuro
             InitializeComponent();
        
             this.Master=new MenuLateral();
-            this.Detail = new NavigationPage(new LoginConteniddo());
+            this.Detail = new NavigationPage(new Monitoreo());
             App.MasterDet = this;
         }
     }

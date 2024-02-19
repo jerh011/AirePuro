@@ -10,13 +10,13 @@ using Xamarin.Forms.Xaml;
 
 namespace AirePuro.View
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class LoginConteniddo : ContentPage
-	{
-		public LoginConteniddo()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Login : ContentPage
+    {
+        public Login()
+        {
+            InitializeComponent();
             BindingContext = new VMLogin(Navigation);
         }
-	}
+    }
 }

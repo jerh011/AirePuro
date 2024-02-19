@@ -21,7 +21,7 @@ namespace AirePuro.ViewModel
         public async Task IncioSecion()
         {
 
-            await Navigation.PushAsync(new Monitoreo());
+            await Navigation.PushAsync(new MainPage());
         }
         #endregion
 
